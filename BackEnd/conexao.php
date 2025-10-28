@@ -11,6 +11,5 @@ $conecta = new mysqli($localhost, $user, $senha, $banco);
 if ($conecta->connect_error) {
     die("Falha na conexão com o banco de dados: " . $conecta->connect_error);
   //adicionei a msg de erro caso dê erro de conexão com o banco mais pra frente
-$conecta->set_charset("utf8mb4");
 ?>
 
