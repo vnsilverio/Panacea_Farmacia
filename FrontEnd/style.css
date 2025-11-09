@@ -2,4 +2,5 @@
 
 body {
     background-image: linear-gradient(to right, #0E5959, #8C7F56);
+    background-attachment: fixed;
 }
