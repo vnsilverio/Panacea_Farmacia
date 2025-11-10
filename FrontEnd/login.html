@@ -10,11 +10,12 @@
     <h1>Panácea Software</h1>
     <img src ="./imgs/Panácea.jpg" alt ="Logo Panácea" style ="width:150px;height:150px;"><br><br>
     <h2>Login</h2>
+    <form action = "" method ="POST">
     <input type = "text" id = "username" placeholder ="Nome de usuário"><br><br>
     <input type = "password" id = "password" placeholder ="Senha"><br><br>
-    <button onclick = "login()">Entrar</button>
+    <button type = "submit">Entrar</button>
     <button onclick = "window.location.href = 'cadastro.html'">Cadastrar</button><br><br>
-
+    </form>
         <script>
             function login(Login){
             var user = document.getElementById("username").value;
